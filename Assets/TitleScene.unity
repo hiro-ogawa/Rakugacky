@@ -269,6 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4c3fe0128df47af825930a2677e428, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LoadScene: VuforiaOgawaScene
 --- !u!1 &519494312
 GameObject:
   m_ObjectHideFlags: 0
