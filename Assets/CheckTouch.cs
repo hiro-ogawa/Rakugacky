@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CheckTouch : MonoBehaviour {
+	public string LoadScene;
 
 	// Use this for initialization
 	void Start () {
@@ -19,22 +20,22 @@ public class CheckTouch : MonoBehaviour {
 			if(touch.phase == TouchPhase.Began)
 			{
 				// タッチ開始
-				SceneManager.LoadScene("VuforiaOgawaScene");
+				// SceneManager.LoadScene("VuforiaOgawaScene");
 			}
 			else if (touch.phase == TouchPhase.Moved)
 			{
 				// タッチ移動
-				SceneManager.LoadScene("VuforiaOgawaScene");
+				// SceneManager.LoadScene("VuforiaOgawaScene");
 			}
 			else if (touch.phase == TouchPhase.Ended)
 			{
 				// タッチ終了
-				SceneManager.LoadScene("VuforiaOgawaScene");
+				SceneManager.LoadScene(LoadScene);
 			}
 		}
 		if (Input.GetMouseButtonDown(0)) {
 			Debug.Log("mouse");
-			SceneManager.LoadScene("VuforiaOgawaScene");
+			// SceneManager.LoadScene("VuforiaOgawaScene");
     }
 	}
 }
