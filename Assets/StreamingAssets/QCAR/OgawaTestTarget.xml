@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="nobu_hide" size="0.100000 0.052333" />
+    <ImageTarget name="hayashi" size="0.080000 0.039267" />
+    <ImageTarget name="ryobot" size="0.070000 0.043250" />
+    <ImageTarget name="unity_logo" size="0.050000 0.018147" />
+    <ImageTarget name="Miketaro" size="0.030000 0.043800" />
+  </Tracking>
+</QCARConfig>
