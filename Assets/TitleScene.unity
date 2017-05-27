@@ -185,6 +185,7 @@ GameObject:
   - component: {fileID: 131490651}
   - component: {fileID: 131490650}
   - component: {fileID: 131490649}
+  - component: {fileID: 131490653}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -257,6 +258,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &131490653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 131490648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c3fe0128df47af825930a2677e428, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519494312
 GameObject:
   m_ObjectHideFlags: 0
@@ -502,7 +514,7 @@ GameObject:
   - component: {fileID: 1428000332}
   - component: {fileID: 1428000331}
   m_Layer: 0
-  m_Name: Japanese
+  m_Name: History
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -521,7 +533,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: ef6aa01a9d035424c8a99b3404aabfb3, type: 2}
+  - {fileID: 2100000, guid: afe901adc5cd0415d95351aa0dc45860, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -585,7 +597,7 @@ GameObject:
   - component: {fileID: 1634069268}
   - component: {fileID: 1634069267}
   m_Layer: 0
-  m_Name: History
+  m_Name: Chemical
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -604,7 +616,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: ef6aa01a9d035424c8a99b3404aabfb3, type: 2}
+  - {fileID: 2100000, guid: 76b5ca7de45ab4582b99d3786f4019c8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
