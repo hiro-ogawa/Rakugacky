@@ -35,7 +35,7 @@ public class CheckTouch : MonoBehaviour {
 		}
 		if (Input.GetMouseButtonDown(0)) {
 			Debug.Log("mouse");
-			// SceneManager.LoadScene("VuforiaOgawaScene");
+			SceneManager.LoadScene(LoadScene);
     }
 	}
 }
