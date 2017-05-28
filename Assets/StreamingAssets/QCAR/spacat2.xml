@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="ito" size="0.250000 0.182708" />
+    <ImageTarget name="kagaku6" size="0.250000 0.145117" />
+    <ImageTarget name="kakaku5" size="0.250000 0.109053" />
+    <ImageTarget name="kakaku4" size="0.250000 0.161815" />
+    <ImageTarget name="ryobot" size="40.000000 23.700001" />
+  </Tracking>
+</QCARConfig>

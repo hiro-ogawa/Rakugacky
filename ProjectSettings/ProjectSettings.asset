@@ -119,7 +119,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleIdentifier: com.tsukurulab.rakugacky
+  bundleIdentifier: tsukurulab.rakugacky
   bundleVersion: 1.0
   preloadedAssets: []
   metroInputSource: 0
@@ -388,7 +388,8 @@ PlayerSettings:
     7: VUFORIA_ANDROID_SETTINGS
     14: VUFORIA_WSA_SETTINGS
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Android: 0
   incrementalIl2cppBuild: {}
   additionalIl2CppArgs: 
   m_RenderingPath: 1
