@@ -54,6 +54,20 @@ namespace Vuforia
             {
                 OnTrackingFound();
                 audioSource01.Play(); //add
+
+				GameObject obj = GameObject.Find("/ImageTarget/Quad");  // xxxx のGameObjectを取得.
+				GameObject obj1 = GameObject.Find("/ImageTarget/Quad1");  // xxxx のGameObjectを取得.
+				GameObject obj2 = GameObject.Find("/ImageTarget/Quad2");  // xxxx のGameObjectを取得.
+				Vector3 v = obj.transform.localPosition;
+				Vector3 v1 = obj1.transform.localPosition;
+				Vector3 v2 = obj2.transform.localPosition;
+				v.x = -0.06f;
+				v1.x = 3.94f;
+				v2.x = 7.94f;
+
+				obj.transform.localPosition = v;
+				obj1.transform.localPosition = v1;
+				obj2.transform.localPosition = v2;
             }
             else
             {
