@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 81663003}
   - component: {fileID: 81663002}
   m_Layer: 0
-  m_Name: Quad (1)
+  m_Name: Quad1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116,7 +116,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 81663000}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 4, y: 0, z: -0.19}
+  m_LocalPosition: {x: 3.94, y: 0, z: -0.19}
   m_LocalScale: {x: 1.1, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 1401301602}
@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 300093744}
   - component: {fileID: 300093743}
   m_Layer: 0
-  m_Name: Quad (2)
+  m_Name: Quad2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -199,7 +199,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 300093741}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 8, y: 0, z: -0.19}
+  m_LocalPosition: {x: 7.94, y: 0, z: -0.19}
   m_LocalScale: {x: 1.1, y: 0.8000004, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 1401301602}
@@ -218,7 +218,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 5ee648391f5864712b14290c5a04c6b8, type: 2}
+  - {fileID: 2100000, guid: 243c58a9087da421daa157ef84cbe35b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -878,7 +878,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1108528155}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.058, y: 0.1, z: -0.19}
+  m_LocalPosition: {x: -0.06, y: 0.1, z: -0.19}
   m_LocalScale: {x: 1.1, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 1401301602}
